@@ -24,4 +24,13 @@ public class Point {
 	  double ydiff = y - that.y;
 	  return Math.sqrt(xdiff * xdiff + ydiff * ydiff);
 	}
-}
+	
+	//Set a point to a brand-new value
+	public void setPoint(double newX, double newY) {
+		this.X = newX;
+		this.y = newY;
+	}
+}	
+
+
+
