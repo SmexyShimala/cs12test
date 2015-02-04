@@ -27,7 +27,7 @@ public class Point {
 	
 	//Set a point to a brand-new value
 	public void setPoint(double newX, double newY) {
-		this.X = newX;
+		this.x = newX;
 		this.y = newY;
 	}
 }	
